@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
             noChao = false;
         }
         
-        if (transform.position.y < -5)
+        if (transform.position.y < -10)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
